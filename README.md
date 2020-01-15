@@ -126,4 +126,4 @@ doc: http://docs.aws.amazon.com/cli/latest/reference/ec2/get-password-data.html
     echo AWS_SECRET_ACCESS_KEY=KEY >> .env
     docker-compose run aws s3 ls
 
-Inspired by https://github.com/bbranquinho/aws-cli-docker
+Inspired by https://github.com/sekka1/aws-cli-docker
