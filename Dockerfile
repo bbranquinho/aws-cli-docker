@@ -9,4 +9,6 @@ RUN apk --no-cache update && \
     pip3 --no-cache-dir install awscli==${AWS_CLI_VERSION} && \
     rm -rf /var/cache/apk/*
 
+COPY ./wait-for-it.sh /home/application/wait-for-it.sh
+
 WORKDIR /data
