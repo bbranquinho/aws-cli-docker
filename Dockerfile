@@ -10,5 +10,6 @@ RUN apk --no-cache update && \
     rm -rf /var/cache/apk/*
 
 COPY ./wait-for-it.sh /home/application/wait-for-it.sh
+RUN chmod a+x /home/application/wait-for-it.sh
 
 WORKDIR /data
