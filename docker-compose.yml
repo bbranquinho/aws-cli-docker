@@ -1,7 +1,7 @@
 version: '2'
 services:
   aws:
-    image: garland/aws-cli-docker
+    image: bbranquinho/aws-cli-docker
     entrypoint: aws
     environment:
       - AWS_ACCESS_KEY_ID
